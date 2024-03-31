@@ -51,7 +51,7 @@ namespace ConsoleApp4.Models
             get { return _age; }
             set
             {
-                if (value > 0) { _age = value; }
+                if (value > 18) { _age = value; }
                 
             }
         }
