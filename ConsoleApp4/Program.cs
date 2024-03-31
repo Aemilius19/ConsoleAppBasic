@@ -32,8 +32,9 @@ namespace ConsoleApp4
                         break;
                     case "2":
                         Console.WriteLine("|================|");
-                        Console.WriteLine($"|================={ departament.DepartamentName}=================|");
+                        Console.WriteLine($"|================={ departament.DepartamentName}=================|\n");
                         departament.GetAllEmployess();
+                        Console.WriteLine("\n|==========================|");
                         break;
                     case "0":
                         Console.WriteLine("|================|");
